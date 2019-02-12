@@ -1,0 +1,35 @@
+{
+  "name": "backend-core",
+  "version": "0.0.0",
+  "description": "backend-core for todowork.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todowork-io/backend.git"
+  },
+  "keywords": [
+    "backend-api",
+    "expressjs",
+    "mongodb"
+  ],
+  "author": "Todowork team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todowork-io/backend/issues"
+  },
+  "homepage": "https://github.com/todowork-io/backend#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mongoose": "^5.4.9",
+    "nodemon": "^1.18.9"
+  }
+}
