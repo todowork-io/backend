@@ -1,5 +1,5 @@
-import Customer from './router/Customer';
+import AuthController from './Controller/AuthController';
 
 module.exports = (app, db) => {
-  Customer(app, db);
+  AuthController(app, db);
 };
