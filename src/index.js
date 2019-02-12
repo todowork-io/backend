@@ -9,6 +9,9 @@ app.use(cors());
 import mongodb_connect_module from './modules/mongodbConnectModule';
 const database = mongodb_connect_module.connect();
 
+import router from './router';
+router(app, database);
+
 const port = 8080;
 app.listen(port, () => console.log(`Server listening on port ${port}`));
 
